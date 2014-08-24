@@ -1,0 +1,9 @@
+<ul>
+	{{#each}}
+		<li>{{#link-to 'category.subcategories' this}}{{name}}{{/link-to}}</li>
+	{{/each}}
+</ul>
+
+<hr/>
+
+{{outlet}}
