@@ -1,6 +1,10 @@
 # Route-test-problem
 
-This README outlines the details of collaborating on this Ember application.
+This app is made to illustrate a problem i have with acceptance testing an ember app.
+
+I am testing that visting a url redirects correctly based on a models relatioship, and the rendering of the page.
+
+These two tests seem to conflict. The A will fail one time i run the test, then the next time test B will fail and so on.
 
 ## Installation
 
